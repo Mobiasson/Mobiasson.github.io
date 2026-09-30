@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strangely True Uploader - Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg: #f7f6f1;
+    --surface: #ffffff;
+    --ink: #17181c;
+    --muted: #5c5e66;
+    --rule: #e2e0d6;
+    --accent: #b88a00;
+    --accent-bg: #ffd23f;
+    --accent-ink: #17181c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #0e0f13; --surface: #16171c; --ink: #f2f2ec; --muted: #a3a5ad;
+      --rule: #2a2c33; --accent: #ffd23f; --accent-bg: #ffd23f; --accent-ink: #0e0f13;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0e0f13; --surface: #16171c; --ink: #f2f2ec; --muted: #a3a5ad;
+    --rule: #2a2c33; --accent: #ffd23f; --accent-bg: #ffd23f; --accent-ink: #0e0f13;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    padding-inline: 16px;
+    padding-block: 40px 64px;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; display: grid; gap: 40px; }
+  header { display: grid; gap: 14px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark {
+    width: 44px; height: 44px; border-radius: 50%; background: var(--accent-bg); color: var(--accent-ink);
+    display: grid; place-items: center; font: 22px/1 "Archivo Black", Impact, sans-serif; flex: none;
+  }
+  h1 { font: 34px/1.1 "Archivo Black", Impact, sans-serif; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+  h1 span { color: var(--accent); }
+  .lede { margin: 0; color: var(--muted); max-width: 60ch; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  nav a {
+    color: var(--ink); text-decoration: none; border: 1px solid var(--rule); border-radius: 999px;
+    padding: 6px 14px; font-weight: 600; font-size: 14px; background: var(--surface);
+  }
+  nav a:hover, nav a:focus-visible { border-color: var(--accent); outline: none; }
+  section { display: grid; gap: 4px; scroll-margin-top: 24px; }
+  section + section { border-top: 1px solid var(--rule); padding-top: 40px; }
+  h2 { font: 24px/1.2 "Archivo Black", Impact, sans-serif; margin: 0; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0 0 12px; }
+  h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 20px 0 2px; }
+  p, ul { margin: 0; max-width: 65ch; }
+  ul { padding-left: 1.2em; }
+  a { color: var(--accent); }
+  code { font-family: Consolas, "Cascadia Mono", monospace; font-size: 0.92em; }
+  footer { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="brand"><div class="mark" aria-hidden="true">?!</div><strong>Strangely True Uploader</strong></div><nav aria-label="Pages"><a href="./">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav></header>
+  <section id="privacy" style="border:0;padding:0" aria-labelledby="privacy-title">
+    <h2 id="privacy-title">Privacy Policy</h2>
+    <p class="updated">Last updated: September 30, 2026</p>
+    <h3>Who this covers</h3>
+    <p>Strangely True Uploader is used only by the owner of the Strangely True channel to publish videos to their own TikTok account. It has no other users.</p>
+    <h3>What data it uses</h3>
+    <p>When the owner logs in with TikTok, the tool receives:</p>
+    <ul>
+      <li>an access token and refresh token, so it can post on the owner's behalf;</li>
+      <li>basic account info (display name and account ID), to show which account is connected.</li>
+    </ul>
+    <p>It uses the <code>user.info.basic</code> and <code>video.publish</code> permissions only.</p>
+    <h3>Where the data is kept</h3>
+    <p>Tokens are stored only on the owner's own computer. They are not sent to any server other than TikTok's, not sold, and not shared with anyone.</p>
+    <h3>Data about other people</h3>
+    <p>The tool does not collect, read or store any information about viewers, followers or any other TikTok users.</p>
+    <h3>Removing access</h3>
+    <p>The owner can disconnect the tool at any time in the TikTok app (Settings and privacy, then Security, then Manage app permissions) and by deleting the stored token file.</p>
+    <h3>Changes</h3>
+    <p>This policy may be updated at any time. The latest version is always on this page.</p>
+    <h3>Contact</h3>
+    <p>Through the Strangely True YouTube channel: <a href="https://www.youtube.com/channel/UCfRWAf0HNeFneyplAIy-6bw">youtube.com/channel/UCfRWAf0HNeFneyplAIy-6bw</a></p>
+  </section>
+  <footer>Strangely True &middot; One weird, true fact. Every day.</footer>
+</div>
+</body>
+</html>
